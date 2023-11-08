@@ -1,11 +1,3 @@
-# assignment: Programming Assignment 1
-# author: Kriti Bhargava
-# date: 01/22/2023
-# file: hangman.py is a program that randomly selects a secret word for the player to guess from a list of words based off user inputs. Then the game is repeated as many time the user wants.
-# input: (The use will be asked how long the word shall be and how many lives they want in numbers. They then guess letters one by one. At the end of the game they input weather they want to play again, a y for yes or n for no)
-# output: (The program out puts the results of the game, if they won or lost, and if they want to play again)
-
-
 from random import choice, random
 
 dictionary_file = "dictionary.txt"  
